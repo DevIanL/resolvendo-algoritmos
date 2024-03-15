@@ -11,6 +11,7 @@ b : inteiro
 c : inteiro
 
 inicio
+
     resp <- "sim"
     enquanto (resp = "sim") faca
         escreval("Leia a:")
@@ -28,4 +29,5 @@ inicio
         escreval("deseja continuar? (sim/nao)")
         leia(resp)
     fimenquanto
+    
 fimalgoritmo

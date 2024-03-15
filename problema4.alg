@@ -8,9 +8,9 @@ x : inteiro
 
 inicio
 
-escreval("Digite um número inteiro qualquer: ")
-leia(x)
-escreval("O número antecessor desse número será: ", x - 1)
-escreval("O número sucessor desse número será: ", x + 1)
+    escreval("Digite um número inteiro qualquer: ")
+    leia(x)
+    escreval("O número antecessor desse número será: ", x - 1)
+    escreval("O número sucessor desse número será: ", x + 1)
 
 fimalgoritmo

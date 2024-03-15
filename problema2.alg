@@ -9,6 +9,7 @@ x : inteiro
 resp : caractere
 
 inicio
+
     resp <- "sim"
     enquanto (resp = "sim") faca
         escreval("Digite um número inteiro qualquer:")
@@ -21,4 +22,5 @@ inicio
         escreval("Deseja continuar: (sim/nao)")
         leia(resp)
     fimenquanto
+    
 fimalgoritmo
